@@ -1,0 +1,15 @@
+# Blacklist all in this folder
+/*
+# Except for these
+!.dotfiles
+!.gitignore
+!.gitconfig
+!.gitmodules
+!.config
+!.zlogin
+!.zlogout
+!.zprezto
+!.zpreztorc
+!.zprofile
+!.zshenv
+!.zshrc
