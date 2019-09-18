@@ -1,6 +1,6 @@
 # Aliases in this file are bash and zsh compatible
 
-alias cat="bat --theme 'OneHalfLight'"
+alias cat="bat --theme 'GitHub'"
 alias ping='prettyping --nolegend'
 alias top="sudo htop" # alias top and fix high sierra bug
 
