@@ -5,7 +5,7 @@
 !.gitignore
 !.gitconfig
 !.gitmodules
-!.config
+!.config/nvim
 !.zlogin
 !.zlogout
 !.zprezto
