@@ -12,3 +12,6 @@ fi
 
 # Customize to your needs...
 for config_file ($HOME/.dotfiles/zsh/*.zsh) source $config_file
+
+# Added by Krypton
+export GPG_TTY=$(tty)
