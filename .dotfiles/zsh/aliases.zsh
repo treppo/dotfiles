@@ -65,3 +65,6 @@ alias cl='clear'
 alias gz='tar -zcvf'
 
 alias k9='kill -9'
+
+# Get the weather
+alias weather='curl wttr.in/Barcelona'
