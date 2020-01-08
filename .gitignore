@@ -4,12 +4,5 @@
 !.dotfiles
 !.gitignore
 !.gitconfig
-!.gitmodules
 !.config/nvim
-!.zlogin
-!.zlogout
-!.zprezto
-!.zpreztorc
-!.zprofile
-!.zshenv
-!.zshrc
+!.config/fish

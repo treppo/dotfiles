@@ -1,1 +1,0 @@
-/Users/treppo/.zprezto/runcoms/zprofile

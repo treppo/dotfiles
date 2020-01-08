@@ -1,3 +1,0 @@
-[submodule ".dotfiles/zsh/prezto"]
-	path = .dotfiles/zsh/prezto
-	url = https://github.com/sorin-ionescu/prezto.git
