@@ -1,7 +1,7 @@
 # Blacklist all in this folder
 /*
 # Except for these
-!.dotfiles
+!.setup
 !.gitignore
 !.gitconfig
 !.config/

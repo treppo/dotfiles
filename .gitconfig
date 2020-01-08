@@ -1,1 +1,82 @@
-/Users/treppo/.dotfiles/git/gitconfig
+# set your user tokens as environment variables, such as ~/.secrets
+# See the README for examples.
+[color]
+  ui = true
+
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red
+  new = green
+
+[alias]
+  # log
+  l = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(black)%s%C(reset) %C(dim black)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+
+[format]
+  pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
+
+[core]
+  editor = nvim
+  excludesfile = /Users/treppo/.gitignore_global
+  autocrlf = input
+
+[rerere]
+  # Remember my merges
+  # http://gitfu.wordpress.com/2008/04/20/git-rerere-rereremember-what-you-did-last-time/
+  enabled = true
+
+[merge]
+  ff = only
+  # I pretty much never mean to do a real merge, since I use a rebase workflow.
+  # Note: this global option applies to all merges, including those done during a git pull
+  # https://git-scm.com/docs/git-config#git-config-mergeff
+
+  conflictstyle = diff3
+  # Standard diff is two sets of final changes. This introduces the original text before each side's changes.
+  # https://git-scm.com/docs/git-config#git-config-mergeconflictStyle
+
+[commit]
+  gpgSign = true
+  # "other people can trust that the changes you've made really were made by you"
+  # https://help.github.com/articles/about-gpg/
+  # https://git-scm.com/docs/git-config#git-config-commitgpgSign
+
+[push]
+  default = simple
+  # "push the current branch back to the branch whose changes are usually integrated into the current branch"
+  # "refuse to push if the upstream branch’s name is different from the local one"
+  # https://git-scm.com/docs/git-config#git-config-pushdefault
+
+  followTags = true
+  # Because I get sick of telling git to do it manually
+  # https://git-scm.com/docs/git-config#git-config-pushfollowTags
+
+[status]
+  showUntrackedFiles = all
+  # Sometimes a newly-added folder, since it's only one line in git status, can slip under the radar.
+  # https://git-scm.com/docs/git-config#git-config-statusshowUntrackedFiles
+
+[pager]
+  diff = diff-so-fancy | less --tabs=1,5 -RFX
+  show = diff-so-fancy | less --tabs=1,5 -RFX
+
+[credential]
+  helper = osxkeychain
+
+[tag]
+  forceSignAnnotated = true
+
+[gpg]
+  program = /usr/local/bin/krgpg
+
+[user]
+  name = Christian Treppo
+  email = christian@treppo.org
+[init]
+  templatedir = /Users/treppo/.git-template
