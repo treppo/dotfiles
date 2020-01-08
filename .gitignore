@@ -4,5 +4,7 @@
 !.dotfiles
 !.gitignore
 !.gitconfig
-!.config/nvim
-!.config/fish
+!.config/
+.config/*
+!.config/nvim/
+!.config/fish/
