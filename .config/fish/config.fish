@@ -5,3 +5,5 @@ if not functions -q fisher
 end
 
 set -g fish_user_paths "/usr/local/opt/curl/bin" $fish_user_paths
+
+source ~/.iterm2_shell_integration.(basename $SHELL)

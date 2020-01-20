@@ -17,6 +17,7 @@ brew cask install \
   font-source-serif-pro \ 
   font-charter \ 
   font-ibm-plex \ 
+  font-jetbrains-mono \
   intellij-idea \ 
   postman \ 
   textmate \ 
