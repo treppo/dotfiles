@@ -10,3 +10,4 @@
 !.config/nvim/
 !.config/fish/
 !.config/iterm2/
+!.iterm2_shell_integration.fish
