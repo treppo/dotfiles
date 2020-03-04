@@ -1,4 +1,4 @@
 # Defined in - @ line 1
 function weather
-	curl wttr.in/Barcelona
+	curl v2.wttr.in/Barcelona
 end
