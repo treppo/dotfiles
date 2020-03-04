@@ -4,6 +4,8 @@
 <dict>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -1313,6 +1315,7 @@
 		<string>3.3.3beta1</string>
 		<string>3.3.8beta3</string>
 		<string>3.3.7beta1</string>
+		<string>3.3.8beta5</string>
 		<string>3.3.2beta1</string>
 		<string>3.3.7beta3</string>
 		<string>3.3.0beta13</string>
@@ -1323,6 +1326,7 @@
 		<string>3.3.5beta3</string>
 		<string>3.3.2beta2</string>
 		<string>3.3.7beta4</string>
+		<string>3.3.8beta4</string>
 		<string>3.3.8beta1</string>
 	</array>
 	<key>NoSyncBFPFavorites</key>
@@ -1351,7 +1355,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>45FB1F05-1230-435D-B856-A358B9DB9369</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>56</integer>
+	<integer>58</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2128,7 +2132,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-01-20T08:30:36Z</date>
+	<date>2020-01-31T08:18:03Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
@@ -2158,7 +2162,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.8beta3</string>
+	<string>3.3.8beta5</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
