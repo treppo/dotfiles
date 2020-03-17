@@ -10,3 +10,6 @@ source ~/.iterm2_shell_integration.(basename $SHELL)
 
 set -g fish_user_paths "$HOME/.jenv/bin" $fish_user_paths
 status --is-interactive; and source (jenv init -|psub)
+
+# Added by Krypton
+set -x GPG_TTY (tty)
