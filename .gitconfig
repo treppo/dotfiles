@@ -17,6 +17,7 @@
 [alias]
   # log
   l = log --graph --format=format:'%C(blue)%h%C(reset) %C(green)(%ar)%C(reset) %C(black)%s%C(reset) %C(magenta)[%an]%C(reset)%C(yellow)%d%C(reset)'
+	identity = "! git config user.name \"$(git config user.$1.name)\"; git config user.email \"$(git config user.$1.email)\"; git config user.signingkey \"$(git config user.$1.signingkey)\"; :"
 
 [format]
   pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
@@ -74,9 +75,18 @@
 
 [gpg]
   program = /usr/local/bin/krgpg
-
-[user]
-  name = Christian Treppo
-  email = christian@treppo.org
 [init]
   templatedir = /Users/treppo/.git-template
+[user]
+  useConfigOnly = true
+[user "roche"]
+  name = Christian Treppo
+  email = christian.treppo@contractors.roche.com
+  signingkey = FA0FE99D21C5D65B
+[user "thoughtworks"]
+  name = Christian Treppo
+  email = ctreppo@thoughtworks.com
+  signingkey = 0DAB6440E2C5C09A
+[user "private"]
+  name = Christian Treppo
+  email = christian@treppo.org
