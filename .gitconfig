@@ -43,7 +43,7 @@
   # https://git-scm.com/docs/git-config#git-config-mergeconflictStyle
 
 [commit]
-  gpgSign = true
+  # gpgSign = true
   # "other people can trust that the changes you've made really were made by you"
   # https://help.github.com/articles/about-gpg/
   # https://git-scm.com/docs/git-config#git-config-commitgpgSign
@@ -73,20 +73,14 @@
 [tag]
   forceSignAnnotated = true
 
-[gpg]
-  program = /usr/local/bin/krgpg
-[init]
-  templatedir = /Users/treppo/.git-template
 [user]
   useConfigOnly = true
 [user "roche"]
   name = Christian Treppo
   email = christian.treppo@contractors.roche.com
-  signingkey = FA0FE99D21C5D65B
 [user "thoughtworks"]
   name = Christian Treppo
   email = ctreppo@thoughtworks.com
-  signingkey = 0DAB6440E2C5C09A
 [user "private"]
   name = Christian Treppo
   email = christian@treppo.org
