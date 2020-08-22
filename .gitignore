@@ -11,3 +11,4 @@
 !.config/fish/
 !.config/iterm2/
 !.iterm2_shell_integration.fish
+.config/nvim/.netrwhist
