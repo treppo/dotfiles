@@ -17,7 +17,7 @@
 [alias]
   # log
   l = log --graph --format=format:'%C(blue)%h%C(reset) %C(green)(%ar)%C(reset) %C(black)%s%C(reset) %C(magenta)[%an]%C(reset)%C(yellow)%d%C(reset)'
-	identity = "! git config user.name \"$(git config user.$1.name)\"; git config user.email \"$(git config user.$1.email)\"; git config user.signingkey \"$(git config user.$1.signingkey)\"; :"
+  identity = "! git config user.name \"$(git config user.$1.name)\"; git config user.email \"$(git config user.$1.email)\"; git config user.signingkey \"$(git config user.$1.signingkey)\"; :"
 
 [format]
   pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
@@ -75,12 +75,6 @@
 
 [user]
   useConfigOnly = true
-[user "roche"]
-  name = Christian Treppo
-  email = christian.treppo@contractors.roche.com
-[user "thoughtworks"]
-  name = Christian Treppo
-  email = ctreppo@thoughtworks.com
 [user "private"]
   name = Christian Treppo
   email = christian@treppo.org
