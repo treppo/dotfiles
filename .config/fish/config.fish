@@ -1,7 +1,5 @@
 # Homebrew paths
-set -g fish_user_paths "/usr/local/opt/curl/bin" $fish_user_paths
-set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
-set -g fish_user_paths "/usr/local/bin" $fish_user_paths
+set -g fish_user_paths "/opt/homebrew/bin" $fish_user_paths
 
 # Python paths
 set -g fish_user_paths (python3 -m site --user-base)/bin $fish_user_paths
