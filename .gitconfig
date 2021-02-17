@@ -81,3 +81,5 @@
 [user "private"]
   name = Christian Treppo
   email = christian@treppo.org
+[init]
+	defaultBranch = main
