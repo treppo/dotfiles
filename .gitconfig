@@ -77,9 +77,9 @@
   forceSignAnnotated = true
 
 [user]
-  useConfigOnly = true
-[user "private"]
-  name = Christian Treppo
-  email = christian@treppo.org
+  	useConfigOnly = true
+  	name = Christian Treppo
+	email = christian@treppo.org
+	signingkey = 738710D85063A84D
 [init]
 	defaultBranch = main
