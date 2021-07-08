@@ -43,7 +43,7 @@
   # https://git-scm.com/docs/git-config#git-config-mergeconflictStyle
 
 [commit]
-  # gpgSign = true
+  gpgSign = true
   # "other people can trust that the changes you've made really were made by you"
   # https://help.github.com/articles/about-gpg/
   # https://git-scm.com/docs/git-config#git-config-commitgpgSign
@@ -83,3 +83,5 @@
 	signingkey = 738710D85063A84D
 [init]
 	defaultBranch = main
+[includeIf "gitdir:~/Projects/systemseed/"]
+	path = ~/Projects/systemseed/.gitconfig
