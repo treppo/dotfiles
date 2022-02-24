@@ -82,5 +82,5 @@
 	signingkey = 738710D85063A84D
 [init]
 	defaultBranch = main
-[includeIf "gitdir:~/Projects/systemseed/"]
-	path = ~/Projects/systemseed/.gitconfig
+[includeIf "gitdir:~/Projects/rillet/"]
+	path = ~/Projects/rillet/.gitconfig
