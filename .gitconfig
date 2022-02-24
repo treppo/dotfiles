@@ -49,10 +49,9 @@
   # https://git-scm.com/docs/git-config#git-config-commitgpgSign
 
 [push]
-  default = simple
-  # "push the current branch back to the branch whose changes are usually integrated into the current branch"
-  # "refuse to push if the upstream branch’s name is different from the local one"
-  # https://git-scm.com/docs/git-config#git-config-pushdefault
+	default = current
+  # "push the current branch to update a branch with the same name on the receiving end."
+  # https://git-scm.com/docs/git-config#Documentation/git-config.txt-pushdefault
 
   followTags = true
   # Because I get sick of telling git to do it manually
