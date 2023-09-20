@@ -1,4 +1,3 @@
-# Defined in - @ line 1
-function gam
-	git commit --amend --reset-author $argv
+function gam --wraps='git commit --amend' --description 'alias gam=git commit --amend'
+  git commit --amend $argv; 
 end
