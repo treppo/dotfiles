@@ -78,11 +78,11 @@
   	useConfigOnly = true
   	name = Christian Treppo
 	email = christian@treppo.org
-	signingkey = 738710D85063A84D
+	signingkey = /Users/treppo/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/PublicKeys/d099f82a08def28bf8c14f811e230280.pub
 [init]
 	defaultBranch = main
-[includeIf "gitdir:~/Projects/rillet/"]
-	path = ~/Projects/rillet/.gitconfig
+[includeIf "gitdir:~/Developer/rillet/"]
+	path = ~/Developer/rillet/.gitconfig
 [diff]
 	external = difft
 	tool = difftastic
@@ -92,3 +92,5 @@
 
 [difftool "difftastic"]
         cmd = difft "$LOCAL" "$REMOTE"
+[gpg]
+	format = ssh
