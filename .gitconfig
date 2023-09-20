@@ -66,8 +66,7 @@
   # https://git-scm.com/docs/git-config#git-config-statusshowUntrackedFiles
 
 [pager]
-  diff = diff-so-fancy | less --tabs=1,5 -RFX
-  show = diff-so-fancy | less --tabs=1,5 -RFX
+	difftool = true
 
 [credential]
   helper = osxkeychain
@@ -84,3 +83,12 @@
 	defaultBranch = main
 [includeIf "gitdir:~/Projects/rillet/"]
 	path = ~/Projects/rillet/.gitconfig
+[diff]
+	external = difft
+	tool = difftastic
+
+[difftool]
+        prompt = false
+
+[difftool "difftastic"]
+        cmd = difft "$LOCAL" "$REMOTE"
