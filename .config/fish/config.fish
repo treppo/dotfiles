@@ -1,3 +1,6 @@
+# set unix locale
+set --export LC_ALL en_US.UTF-8
+
 # Homebrew paths
 fish_add_path /opt/homebrew/bin
 fish_add_path /opt/homebrew/sbin
