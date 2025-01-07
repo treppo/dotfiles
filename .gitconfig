@@ -78,7 +78,7 @@
   	useConfigOnly = true
   	name = Christian Treppo
 	email = christian@treppo.org
-	signingkey = /Users/treppo/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/PublicKeys/d099f82a08def28bf8c14f811e230280.pub
+	signingkey = /Users/treppo/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/PublicKeys/7a5b5fb3a70135b33c0d683a15af0489.pub
 [init]
 	defaultBranch = main
 [includeIf "gitdir:~/Developer/rillet/"]
