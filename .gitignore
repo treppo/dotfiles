@@ -9,5 +9,5 @@
 .config/*
 !.config/nvim/
 !.config/fish/
-!.config/alacritty/
+!.config/ghostty/
 .config/nvim/.netrwhist
