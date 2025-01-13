@@ -23,7 +23,7 @@
   pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
 
 [core]
-  editor = nvim
+  editor = micro
   excludesfile = /Users/treppo/.gitignore_global
   autocrlf = input
 

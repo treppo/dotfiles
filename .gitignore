@@ -1,13 +1,13 @@
 # Blacklist all in this folder
 /*
 # Except for these
-!.iterm2_shell_integration.fish
 !.setup
 !.gitignore
 !.gitconfig
-!.config/
 .config/*
+!.config/
 !.config/nvim/
+!.config/micro/
 !.config/fish/
 !.config/ghostty/
 .config/nvim/.netrwhist

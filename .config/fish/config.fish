@@ -10,3 +10,6 @@ set --export SSH_AUTH_SOCK /Users/treppo/Library/Containers/com.maxgoedjen.Secre
 
 # IntelliJ
 fish_add_path /Applications/IntelliJ\ IDEA.app/Contents/MacOS
+
+# Default editor
+set --export EDITOR micro
