@@ -1,0 +1,26 @@
+
+[settings]
+experimental = true
+idiomatic_version_file_enable_tools = []
+
+[tools]
+fd = "latest"
+java = "corretto-25"
+tlrc = "latest"
+shellcheck = "latest"
+jq = "latest"
+bat = "latest"
+eza = "latest"
+helix = "latest"
+ripgrep = "latest"
+fzf = "latest"
+yt-dlp = "latest"
+yq = "latest"
+zoxide = "latest"
+difftastic = "latest"
+ffmpeg = "latest"
+hadolint = "latest"
+hyperfine = "latest"
+hurl = "latest"
+"github:zyedidia/micro" = "latest"
+btop = { version = "latest", os = ["linux"]}

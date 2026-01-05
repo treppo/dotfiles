@@ -6,8 +6,6 @@
 !.gitconfig
 .config/*
 !.config/
-!.config/nvim/
-!.config/micro/
 !.config/fish/
 !.config/ghostty/
-.config/nvim/.netrwhist
+!.config/mise/
