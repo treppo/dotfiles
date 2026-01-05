@@ -1,9 +1,10 @@
 theme = Alabaster
-font-size = 14
-adjust-cell-height = 10
+font-size = 13
+adjust-cell-height = 12
 window-padding-x = 20
 window-padding-y = 20
 window-height = 35
 window-width = 110
 custom-shader = shaders/cursor_smear.glsl
 custom-shader-animation = true
+keybind = shift+enter=text:\x1b\r
