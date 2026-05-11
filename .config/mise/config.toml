@@ -5,7 +5,6 @@ idiomatic_version_file_enable_tools = []
 
 [tools]
 fd = "latest"
-java = "corretto-25"
 tlrc = "latest"
 shellcheck = "latest"
 jq = "latest"
@@ -24,3 +23,5 @@ hyperfine = "latest"
 hurl = "latest"
 "github:zyedidia/micro" = "latest"
 btop = { version = "latest", os = ["linux"]}
+node = "latest"
+java = "corretto"
