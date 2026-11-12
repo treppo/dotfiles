@@ -13,3 +13,7 @@ fish_add_path /Applications/IntelliJ\ IDEA.app/Contents/MacOS
 
 # Default editor
 set --export EDITOR hx
+
+if status is-interactive
+    atuin init fish | source
+end
