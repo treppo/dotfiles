@@ -75,22 +75,23 @@
   forceSignAnnotated = true
 
 [user]
-  	useConfigOnly = true
-  	name = Christian Treppo
+  useConfigOnly = true
+  name = Christian Treppo
 	email = christian@treppo.org
 	signingkey = /Users/treppo/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/PublicKeys/7a5b5fb3a70135b33c0d683a15af0489.pub
+
 [init]
 	defaultBranch = main
-[includeIf "gitdir:~/Developer/rillet/"]
-	path = ~/Developer/rillet/.gitconfig
+
 [diff]
-	external = difft
-	tool = difftastic
+	external = /Users/treppo/.local/share/mise/installs/github-ivankovic-omnidiff/latest/omnidiff
+	tool = omnidiff
 
 [difftool]
-        prompt = false
+	prompt = false
 
-[difftool "difftastic"]
-        cmd = difft "$LOCAL" "$REMOTE"
 [gpg]
 	format = ssh
+
+[difftool "omnidiff"]
+	cmd = /Users/treppo/.local/share/mise/installs/github-ivankovic-omnidiff/latest/omnidiff \"$LOCAL\" \"$REMOTE\"
